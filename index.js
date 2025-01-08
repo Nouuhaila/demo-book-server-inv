@@ -14,7 +14,9 @@ app.get('/', (req, res) => {
 
 // mongodb confiq here
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
-const uri = "mongodb+srv://user:user@projetwebcluster.flhhd.mongodb.net/";
+const uri = "mongodb+srv://bookManager:mMwEN9zn1JnJzcvI@cluster0.lpzqr6l.mongodb.net/?retryWrites=true&w=majority";
+//const uri = "mongodb+srv://user:user@projetwebcluster.flhhd.mongodb.net/";
+
 //const uri = "mongodb://bookManager:mMwEN9zn1JnJzcvI@cluster0-shard-00-00.lpzqr6l.mongodb.net:27017,cluster0-shard-00-01.lpzqr6l.mongodb.net:27017,cluster0-shard-00-02.lpzqr6l.mongodb.net:27017/BookInventory?ssl=true&replicaSet=atlas-xyz-shard-0&authSource=admin&retryWrites=true&w=majority";
 
 
